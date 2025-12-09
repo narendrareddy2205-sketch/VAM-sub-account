@@ -55,7 +55,7 @@ jobs:
     environment: 'production'
 
     permissions:
-      contents: 'read'
+      contents: 'read' # the content is only read @NARENDRA
       id-token: 'write'
 
     steps:
